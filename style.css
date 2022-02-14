@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -19,16 +19,16 @@ body {
   font-family: 'Poppins', sans-serif;
   width: 90%;
   padding: 30px 25px;
-  border: 2px solid #2e94e5;
+  border: 2px solid #2192f3;
   border-radius: 10px;
-  -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, .07));
+  -webkit-box-reflect: below 5px linear-gradient(transparent, rgba(255, 255, 255, .09));
   transition: 0.1s;
   transition-property: background, box-shadow;
 }
 
 .datetime:hover{
-  background-color: #2e94e5;
-  box-shadow: 0 0 30px #2e94e5;
+  background-color: #2192f3;
+  box-shadow: 0 0 30px #2192f3;
 }
 
 .date {
@@ -57,10 +57,12 @@ body {
 }
 
 .time span:last-child {
-  background-color: #2e94e5;
+  background-color: #2192f3;
   font-size: 30px;
   font-weight: 550;
   text-transform: uppercase;
   padding: 0 5px;
   border-radius: 2px;
+  position: fixed;
+  margin-left: 280px;
 }
