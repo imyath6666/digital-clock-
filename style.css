@@ -58,11 +58,9 @@ body {
 
 .time span:last-child {
   background-color: #2192f3;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 550;
   text-transform: uppercase;
-  padding: 0 5px;
+  padding: 0 7px;
   border-radius: 2px;
-  position: fixed;
-  margin-left: 280px;
 }
